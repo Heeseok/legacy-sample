@@ -21,7 +21,7 @@
 			<artifactId>joda-time</artifactId>
 			<version>1.6</version>
 		</dependency>
-		
+
 		<!-- iBatis -->
 		<dependency>
 			<groupId>org.apache.ibatis</groupId>
@@ -97,14 +97,14 @@
 			<artifactId>javassist</artifactId>
 			<version>3.12.1.GA</version>
 		</dependency>
-		            
+
 		<!-- Caching -->
 		<dependency>
 			<groupId>net.sf.ehcache</groupId>
 			<artifactId>ehcache</artifactId>
 			<version>1.6.2</version>
 		</dependency>
-		
+
 		<!-- DBMS -->
 		<dependency>
 			<groupId>c3p0</groupId>
@@ -116,7 +116,7 @@
 			<artifactId>hsqldb</artifactId>
 			<version>1.8.0.10</version>
 		</dependency>
-		
+
 		<!-- Logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -128,7 +128,7 @@
 			<artifactId>logback-classic</artifactId>
 			<version>0.9.9</version>
 		</dependency>
-		    
+
 		<!-- Test -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -173,7 +173,7 @@
 			<version>2.1</version>
 			<scope>provided</scope>
 		</dependency>
-            
+
 		<!-- JSON -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>

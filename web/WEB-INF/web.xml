@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	version="2.5"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd">
+	version="2.4"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
 	<display-name>Legacy-Sample</display-name>
 	<description>Legacy Sample Web Application</description>
 
@@ -26,8 +27,8 @@
 			<param-value>true</param-value>
 		</init-param>
 	</filter>
-	
-	<!-- 
+
+	<!--
 	<filter>
 		<filter-name>Spring OpenSessionInViewFilter</filter-name>
 		<filter-class>org.springframework.orm.hibernate3.support.OpenSessionInViewFilter</filter-class>
@@ -61,5 +62,12 @@
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>http://www.springframework.org/tags/form</taglib-uri>
+			<taglib-location>/WEB-INF/tlds/spring-form.tld</taglib-location>
+		</taglib>
+	</jsp-config>
 
 </web-app>
